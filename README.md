@@ -1,6 +1,6 @@
 # 🧵 Feature Detection, Matching, and RANSAC for Image Stitching (Panorama Creation)
 
-This project demonstrates how to stitch two overlapping images to form a **panorama** using computer vision techniques such as **SIFT**, **FLANN-based matching**, and **RANSAC-based homography estimation**.
+This project demonstrates how to stitch two overlapping images to form a **panorama** using computer vision techniques such as **SIFT**, **Brute Force Matcher**, and **Computing Homography using RANSAC**.
 
 Whether you're using OpenCV's built-in SIFT or implementing your own version, this notebook helps you understand how panorama creation works under the hood.
 
@@ -27,7 +27,7 @@ To:
 ## 📚 What You’ll Learn
 
 - Basics of **SIFT (Scale-Invariant Feature Transform)**.
-- Feature matching using **FLANN (Fast Library for Approximate Nearest Neighbors)**.
+- Feature matching using **Brute Force Matcher**.
 - Filtering matches using **Lowe’s ratio test**.
 - Homography estimation with **RANSAC**.
 - Warping and stitching two images into one seamless panorama.
